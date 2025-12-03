@@ -1,4 +1,4 @@
-from src.test import llm
+from src.my_llm import llm
 
 resp = llm.invoke("请用三句话介绍 yourself")
 print(type(resp))

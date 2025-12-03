@@ -1,4 +1,4 @@
-from src.test import llm
+from src.my_llm import llm
 
 # for chunk in llm.stream("请用三句话介绍 yourself"):
 #     print(type(chunk))
