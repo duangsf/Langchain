@@ -1,7 +1,7 @@
 from langchain_core.output_parsers import SimpleJsonOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
-from test import llm
+from src.test import llm
 
 #创建聊天提示模板，要求模型以特定格式回答问题
 prompt = ChatPromptTemplate.from_template(

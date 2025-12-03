@@ -1,9 +1,8 @@
 from langchain.chat_models import init_chat_model
 from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_deepseek import ChatDeepSeek
-from langchain_openai import ChatOpenAI
 
-from env_utils import ALIBABA_API_KEY, ALIBABA_BASE_URL, OPEN_API_KEY, OPEN_API_URL
+from src.env_utils import ALIBABA_API_KEY, ALIBABA_BASE_URL
 
 #调用阿里云百炼的DeepSeek模型   langchain-OpenAI的插件 只能看到模型输出，不能看到模型思考的过程
 # llm = ChatOpenAI(
