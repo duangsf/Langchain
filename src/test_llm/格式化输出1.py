@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from src.my_llm import llm
+from agent.my_llm import llm
 class Movie(BaseModel):  #数据模型类  schema类
     """电影详细"""
     title: str = Field(..., description="电影名称")
