@@ -15,8 +15,8 @@ from env_utils import ALIBABA_API_KEY, ALIBABA_BASE_URL, OPEN_API_KEY, OPEN_API_
 
 #使用的langchain-deepseek   调用时可以看到模型思考的过程
 llm = ChatDeepSeek(
-    # model_name="deepseek-r1-0528",
-    model_name="deepseek-v3",
+    model_name="deepseek-r1-0528",
+    # model_name="deepseek-v3",
     temperature=0.5,  #模型随机性，越低越保守和重复，越接近1越有创意
     api_key=ALIBABA_API_KEY,
     api_base=ALIBABA_BASE_URL
